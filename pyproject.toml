@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "oro-consensus"
 version = "0.1.0"
-description = "VRF-based consensus, validator selection, and anti-gaming for the orobobos ecosystem"
+description = "VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"

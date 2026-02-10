@@ -1,4 +1,4 @@
-"""oro-consensus -- VRF-based consensus, validator selection, and anti-gaming for the orobobos ecosystem.
+"""oro-consensus -- VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem.
 
 This module implements the consensus node selection mechanism per NODE-SELECTION.md:
 - VRF (Verifiable Random Function) for unpredictable but verifiable selection

@@ -1,6 +1,6 @@
 # oro-consensus
 
-VRF-based consensus, validator selection, and anti-gaming for the orobobos ecosystem
+VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem
 
 ## Overview
 
