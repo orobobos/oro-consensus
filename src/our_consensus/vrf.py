@@ -1,7 +1,7 @@
 """Verifiable Random Function (VRF) Implementation.
 
 Provides unpredictable but verifiable randomness using Ed25519 keys for
-validator selection in oro-consensus.
+validator selection in our-consensus.
 
 SECURITY NOTE - SIMPLIFIED VRF CONSTRUCTION
 ===========================================

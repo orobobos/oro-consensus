@@ -1,4 +1,4 @@
-"""Data models for oro-consensus.
+"""Data models for our-consensus.
 
 These models represent consensus concepts like validators, stakes,
 epochs, slashing, and elevation proposals per NODE-SELECTION.md.

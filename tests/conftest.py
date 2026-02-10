@@ -1,4 +1,4 @@
-"""Shared test fixtures for oro-consensus."""
+"""Shared test fixtures for our-consensus."""
 
 import pytest
 

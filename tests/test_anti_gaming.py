@@ -16,7 +16,7 @@ from uuid import uuid4
 
 import pytest
 
-from oro_consensus.anti_gaming import (
+from our_consensus.anti_gaming import (
     MAX_CONSECUTIVE_EPOCHS_BEFORE_PENALTY,
     TENURE_PENALTY_FACTOR,
     AntiGamingEngine,
@@ -28,7 +28,7 @@ from oro_consensus.anti_gaming import (
     compute_tenure_penalty,
     detect_collusion_patterns,
 )
-from oro_consensus.models import (
+from our_consensus.models import (
     SlashingEvidence,
     Validator,
     ValidatorSet,

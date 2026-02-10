@@ -1,4 +1,4 @@
-# oro-consensus
+# our-consensus
 
 VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem
 
@@ -9,13 +9,13 @@ _Brief description of what this brick does and why it exists._
 ## Install
 
 ```bash
-pip install oro-consensus
+pip install our-consensus
 ```
 
 ## Usage
 
 ```python
-from oro_consensus import ...
+from our_consensus import ...
 ```
 
 ## API

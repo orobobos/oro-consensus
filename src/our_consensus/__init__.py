@@ -1,13 +1,20 @@
-"""Public interface for oro-consensus.
+"""our-consensus -- VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem.
 
-Re-exports the primary public API for the consensus brick.
-All concrete implementations live in their own modules.
-
-Usage:
-    from oro_consensus.interface import VRF, ValidatorSelector, AntiGamingEngine
+This module implements the consensus node selection mechanism per NODE-SELECTION.md:
+- VRF (Verifiable Random Function) for unpredictable but verifiable selection
+- Stake-weighted probability with anti-gaming measures
+- Diversity constraints to prevent capture
+- Slashing conditions for misbehavior
 """
 
-from .anti_gaming import AntiGamingEngine, compute_diversity_score, compute_tenure_penalty, detect_collusion_patterns
+__version__ = "0.1.0"
+
+from .anti_gaming import (
+    AntiGamingEngine,
+    compute_diversity_score,
+    compute_tenure_penalty,
+    detect_collusion_patterns,
+)
 from .models import (
     AttestationType,
     DiversityConstraints,
@@ -25,7 +32,12 @@ from .models import (
     ValidatorStatus,
     ValidatorTier,
 )
-from .selection import ValidatorSelector, compute_selection_weight, derive_epoch_seed, select_validators
+from .selection import (
+    ValidatorSelector,
+    compute_selection_weight,
+    derive_epoch_seed,
+    select_validators,
+)
 from .vrf import VRF, VRFOutput, VRFProof
 
 __all__ = [

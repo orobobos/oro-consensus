@@ -16,7 +16,7 @@ from uuid import uuid4
 
 import pytest
 
-from oro_consensus.models import (
+from our_consensus.models import (
     AttestationType,
     IdentityAttestation,
     StakeRegistration,
@@ -25,7 +25,7 @@ from oro_consensus.models import (
     ValidatorSet,
     ValidatorTier,
 )
-from oro_consensus.selection import (
+from our_consensus.selection import (
     MAX_VALIDATORS,
     MIN_VALIDATORS,
     ValidatorCandidate,

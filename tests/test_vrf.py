@@ -25,7 +25,7 @@ try:
 except ImportError:
     CRYPTO_AVAILABLE = False
 
-from oro_consensus.vrf import (
+from our_consensus.vrf import (
     VRF,
     VRF_OUTPUT_SIZE,
     VRFOutput,
