@@ -21,6 +21,10 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/ourochronos/our-consensus"
+Repository = "https://github.com/ourochronos/our-consensus"
+
 [project.optional-dependencies]
 crypto = [
     "cryptography>=42.0",
