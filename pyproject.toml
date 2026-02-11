@@ -30,6 +30,7 @@ crypto = [
     "cryptography>=42.0",
 ]
 dev = [
+    "cryptography>=42.0",
     "pytest>=8.0",
     "pytest-asyncio>=0.23",
     "pytest-cov>=4.0",
