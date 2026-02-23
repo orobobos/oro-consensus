@@ -1,3 +1,10 @@
+# ⚠️ DEPRECATED
+
+This library was part of the Ourochronos brick system. It has been removed as a dependency and is no longer maintained.
+This repo is archived for reference only.
+
+---
+
 # our-consensus
 
 VRF-based consensus, validator selection, and anti-gaming for the ourochronos ecosystem
